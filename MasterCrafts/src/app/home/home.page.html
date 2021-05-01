@@ -13,9 +13,20 @@
     </ion-toolbar>
   </ion-header>
 
+  <div id="Mascot">
+    <!--Add picture of Mascot here-->
+    <img [src]="url" height="200"> <br/>
+    <!--If you want the mascot to be clickable (click)="#"-->
+  </div>
+  
   <div id="container">
     <ion-button expand="full" href="/easy-crochet">Beginner Challenge</ion-button>
     <ion-button expand="full" href="/med-crochet">Intermediate Challenge</ion-button>
-    <ion-button expand="full" href="/hard-crocher">Expert Challenge</ion-button>
+    <ion-button expand="full" href="/hard-crochet">Expert Challenge</ion-button>
+  </div>
+
+  <div id="container">
+    <ion-button expand="full" (click)="goToCompleted()">Completed Patterns</ion-button>
+    <ion-button expand="full" (click)="goToShare()">Share Patterns</ion-button>
   </div>
 </ion-content>

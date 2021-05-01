@@ -17,4 +17,8 @@ export class EasyCrochetPage implements OnInit {
     this.router.navigateByUrl('/home');
   }
 
+  goToEasyPattern(){
+    this.router.navigateByUrl('/easy-pattern');
+  }
+
 }

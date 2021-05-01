@@ -31,6 +31,18 @@ const routes: Routes = [
     path: 'share-crochet',
     loadChildren: () => import('./share-crochet/share-crochet.module').then( m => m.ShareCrochetPageModule)
   },
+  {
+    path: 'easy-pattern',
+    loadChildren: () => import('./easy-pattern/easy-pattern.module').then( m => m.EasyPatternPageModule)
+  },
+  {
+    path: 'med-pattern',
+    loadChildren: () => import('./med-pattern/med-pattern.module').then( m => m.MedPatternPageModule)
+  },
+  {
+    path: 'hard-pattern',
+    loadChildren: () => import('./hard-pattern/hard-pattern.module').then( m => m.HardPatternPageModule)
+  },
 ];
 
 @NgModule({

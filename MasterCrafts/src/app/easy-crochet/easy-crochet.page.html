@@ -4,8 +4,20 @@
   </ion-toolbar>
 </ion-header>
 
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Easy Challenge</ion-card-subtitle>
+    <ion-card-title>WashCloth Set</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content (click)="goToEasyPattern()">
+    From creamofthecropcrochet.com, master the single and double
+    crochet skill while making these lovely wash cloths.
+  </ion-card-content>
+</ion-card>
+
 <ion-content>
-  <div id="container">
+  <div id="goBackButton">
     <ion-button (click)="goBackToHome()">Click Me to Go Back</ion-button>
   </div>
 </ion-content>

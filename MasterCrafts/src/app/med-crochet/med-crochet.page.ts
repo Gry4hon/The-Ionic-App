@@ -17,4 +17,8 @@ export class MedCrochetPage implements OnInit {
    this.router.navigateByUrl('/home');
  }
 
+ goToMedPattern(){
+   this.router.navigateByUrl('/med-pattern');
+ }
+
 }
