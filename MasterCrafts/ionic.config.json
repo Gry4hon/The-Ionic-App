@@ -1,0 +1,7 @@
+{
+  "name": "MasterCrafts",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
