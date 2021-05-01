@@ -12,12 +12,22 @@ export class HomePage {
   }
 
   //Put functions here
+  goToEasyCrochet(){
+    this.router.navigateByUrl('/easy-crochet');
+  }
+  goToMedCrochet(){
+    this.router.navigateByUrl('/med-crochet');
+  }
+  goToHardCrochet(){
+    this.router.navigateByUrl('/hard-crochet');
+  }
   goToCompleted(){
     this.router.navigateByUrl('/saved-crochet');
   }
   goToShare(){
     this.router.navigateByUrl('/share-crochet');
   }
+
 
 
 }
