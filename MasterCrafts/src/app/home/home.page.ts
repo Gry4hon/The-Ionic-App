@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor() {
+    //call functions here to happen on load
+  }
+
+  //Put functions here
+  
 
 }
