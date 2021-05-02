@@ -37,6 +37,15 @@
 }
 
 #Mascot{
-  position: relative; 
-  transform: translateY(-100%); 
+  position: absolute;
+  text-align:center;
+  left: 25%;
+  right: 25%; 
 }
+//#easyButton{
+  //height:40em;
+  //background-size: cover;
+  //width:auto;
+ // background-image: url('./assets/easybutton.jpg');
+  //background-position: 50% 50%;
+//}

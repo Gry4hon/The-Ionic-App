@@ -16,5 +16,8 @@ export class HardCrochetPage implements OnInit {
  goBackToHome(){
    this.router.navigateByUrl('/home');
  }
+ goToHardPattern(){
+   this.router.navigateByUrl('/hard-pattern');
+ }
 
 }

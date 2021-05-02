@@ -15,14 +15,20 @@
 
   <div id="Mascot">
     <!--Add picture of Mascot here-->
-    <img src="assets/img/computerlogo.jpg" height="200"> <br/>
+    <img src="assets/computerlogo.jpg" height="200"> <br />
     <!--If you want the mascot to be clickable (click)="#"-->
   </div>
 
   <div id="container">
-    <ion-button expand="full" (click)="goToEasyCrochet()">Beginner Challenge</ion-button>
-    <ion-button expand="full" (click)="goToMedCrochet()">Intermediate Challenge</ion-button>
-    <ion-button expand="full" (click)="goToHardCrochet()">Expert Challenge</ion-button>
+    <div id="easyButton">
+      <ion-button expand="full" (click)="goToEasyCrochet()">Beginner Challenge</ion-button>
+    </div>
+    <div id="medButton">
+      <ion-button expand="full" (click)="goToMedCrochet()">Intermediate Challenge</ion-button>
+    </div>
+    <div id="hardButton">
+      <ion-button expand="full" (click)="goToHardCrochet()">Expert Challenge</ion-button>
+    </div>
   </div>
 
   <div id="container">
